@@ -1,0 +1,4 @@
+data/
+log/
+model/__pycache__/
+model/TensorBoard_test/

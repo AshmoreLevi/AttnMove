@@ -36,7 +36,8 @@ def load_hyperparams():
                            help='can also be test mode')
     argparser.add_argument('--history_util', type=str,
                            default='max',)
-    argparser.add_argument('--gpu', type=str, default='7')
+    argparser.add_argument('--gpu', type=str, default='0')
+    #dataset
     argparser.add_argument('--dataset', type=str, default='tencent')
     argparser.add_argument('--process_name', type=str, default='AttnMove')
     argparser.add_argument('--attn_way', type=str, default='cos_distance', help = 'can also be attn/RNN')
